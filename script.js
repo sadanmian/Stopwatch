@@ -30,6 +30,8 @@ function watchStop() {
 }
 function watchReset() {
     clearInterval(timer)
-    [seconds, minutes, hours] = [0, 0, 0]
+    seconds = 0
+    minutes = 0
+    hours = 0
     displayTime.innerHTML = "00:00:00"
 }
